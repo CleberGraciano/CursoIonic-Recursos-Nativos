@@ -1,0 +1,11 @@
+Colocar essa arquivo numa pasta diferente da raiz do codeigniter caso esteja utilizando xampp
+por exemplo
+\htdocs\pedidos ( Ficaria o codeigniter )
+\htdocs\upload  ( Ficaria o código php )
+
+O código sozinho não funciona dentro do framework codeigniter por isso eu coloquei ele em outro domínio e outra url
+
+Qualquer dúvida entrar em contato comigo:
+brunohauck@gmail.com
+ou 
+Pelo próprio udemy
