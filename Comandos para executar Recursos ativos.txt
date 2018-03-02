@@ -13,6 +13,23 @@ npm install --save @ionic-native/file
 ionic cordova plugin add cordova-plugin-camera
 npm install --save @ionic-native/camera
 
+Comando para Rodar app direto no celular Obs: precisa ter o Pda net instalado
+
+esta opção abre para você escolher qual plataforma quer rodar se é andoid ou ios
+
+ionic cordova run --device
+
+Esta opção já roda no andoid automatico
+ionic cordova run android --device
+
+Comandos para ativar recursos de Geolocalização, Mapas
+
+ionic cordova plugin add cordova-plugin-nativegeocoder
+npm install --save @ionic-native/native-geocoder
+ 
+ionic cordova plugin add cordova-plugin-geolocation
+npm install --save @ionic-native/geolocation
+
 
 
 

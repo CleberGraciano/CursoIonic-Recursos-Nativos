@@ -27,7 +27,13 @@ import { Camera } from '@ionic-native/camera';
   entryComponents: [
     MyApp,
     HomePage,
-    GpsPage
+    GpsPage,
+    File,
+    Transfer,
+    Camera,
+    FilePath,
+    
+
   ],
   providers: [
     StatusBar,
