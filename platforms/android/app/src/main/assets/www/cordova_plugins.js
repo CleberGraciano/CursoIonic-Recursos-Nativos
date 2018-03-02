@@ -252,6 +252,14 @@ module.exports = [
     "clobbers": [
       "window.Keyboard"
     ]
+  },
+  {
+    "id": "cordova-plugin-nativegeocoder.NativeGeocoder",
+    "file": "plugins/cordova-plugin-nativegeocoder/www/NativeGeocoder.js",
+    "pluginId": "cordova-plugin-nativegeocoder",
+    "clobbers": [
+      "nativegeocoder"
+    ]
   }
 ];
 module.exports.metadata = 
@@ -265,7 +273,8 @@ module.exports.metadata =
   "cordova-plugin-device": "2.0.1",
   "cordova-plugin-splashscreen": "5.0.2",
   "cordova-plugin-ionic-webview": "1.1.16",
-  "cordova-plugin-ionic-keyboard": "2.0.5"
+  "cordova-plugin-ionic-keyboard": "2.0.5",
+  "cordova-plugin-nativegeocoder": "3.1.1"
 };
 // BOTTOM OF METADATA
 });
